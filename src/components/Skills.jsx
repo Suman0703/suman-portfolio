@@ -17,6 +17,7 @@ const skillsData = [
   { name: "SQL", color: "#60A5FA" },
   { name: "Python", color: "#FACC15" },
   { name: "C++", color: "#3B82F6" },
+  { name: "C", color: "#F05032" },
 ];
 
 export default function Skills() {

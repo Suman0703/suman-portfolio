@@ -6,6 +6,7 @@ import Experience from "../components/Achievements";
 import GithubStats from "../components/GithubStats";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+import Quote from "../components/Quote";
 import Achievements from "../components/Achievements";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
     <div className="space-y-6">
       <Hero />
       <SocialLinks />
-      
+
       {/* Achievements Strip */}
       <div className="flex flex-wrap gap-2 pt-2">
         {[
@@ -31,11 +32,12 @@ export default function Home() {
       </div>
 
       <Skills />
-      <Achievements />
-  
+
       <GithubStats />
-      
+
       <Projects />
+      <Achievements />
+      <Quote />
       <Footer />
     </div>
   );
