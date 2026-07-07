@@ -7,22 +7,16 @@
 @layer base {
   body {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    @apply bg-[#0a0a0f] text-zinc-300 selection:bg-violet-500/30;
+    /* Updated selection color to neon */
+    @apply bg-[#0a0a0f] text-zinc-300 selection:bg-neon/30;
   }
+}
 
-  @keyframes pulseGlow {
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 255, 153, 0.35); }
+  50% { box-shadow: 0 0 0 8px rgba(0, 255, 153, 0); }
+}
 
-    0%,
-    100% {
-      box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.35);
-    }
-
-    50% {
-      box-shadow: 0 0 0 8px rgba(139, 92, 246, 0);
-    }
-  }
-
-  .avatar-ring {
-    animation: pulseGlow 2.5s ease-in-out infinite;
-  }
+.avatar-ring { 
+  animation: pulseGlow 2.5s ease-in-out infinite; 
 }

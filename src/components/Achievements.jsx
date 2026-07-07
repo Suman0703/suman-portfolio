@@ -79,9 +79,9 @@ function TimelineItem({ item }) {
         </div>
         <p className="text-xs text-zinc-500 mt-0.5">{item.role}</p>
       </button>
-      
+
       {/* Expandable Content */}
-      <div 
+      <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${open ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"}`}
       >
         <p className="text-xs text-zinc-400 leading-relaxed border-l border-dashed border-zinc-800 pl-3">
@@ -92,10 +92,10 @@ function TimelineItem({ item }) {
   );
 }
 
-export default function Experience() {
+export default function Achievements() {
   return (
     <div className="space-y-3 pt-2">
-      <Bracket>Work Experience</Bracket>
+      <Bracket>Achievements</Bracket>
       <Panel className="space-y-5">
         {timelineData.map((item) => (
           <TimelineItem key={item.org} item={item} />

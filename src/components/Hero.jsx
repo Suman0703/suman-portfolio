@@ -7,18 +7,20 @@ export default function Hero() {
     <Panel>
       <div className="flex flex-col sm:flex-row gap-5">
         <div className="shrink-0">
-          {/* Avatar with animated glowing ring */}
-          <div className="avatar-ring h-20 w-20 rounded-full bg-gradient-to-br from-violet-500 to-rose-500 p-[2px]">
-            <div className="h-full w-full rounded-full bg-zinc-950 flex items-center justify-center text-xl font-bold text-zinc-100">
-              SD
-            </div>
+          {/* Updated to use your real avatar and neon ring */}
+          <div className="avatar-ring h-20 w-20 rounded-full bg-neon p-[2px]">
+            <img 
+              src="https://raw.githubusercontent.com/Suman0703/Suman0703/main/Avatar.png" 
+              alt="Suman Devi"
+              className="h-full w-full rounded-full object-cover bg-white"
+            />
           </div>
         </div>
         
         <div>
           <div className="flex items-center gap-2 flex-wrap">
             <h1 className="text-2xl font-bold text-zinc-50">Suman Devi</h1>
-            <BadgeCheck size={18} className="text-violet-400" />
+            <BadgeCheck size={18} className="text-neon" />
           </div>
           <p className="text-sm text-zinc-500 mt-0.5">@Suman0703</p>
           

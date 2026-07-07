@@ -2,9 +2,11 @@ import React from "react";
 import Hero from "../components/Hero";
 import SocialLinks from "../components/SocialLinks";
 import Skills from "../components/Skills";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects"; // New import
-import Footer from "../components/Footer";     // New import
+import Experience from "../components/Achievements";
+import GithubStats from "../components/GithubStats";
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
+import Achievements from "../components/Achievements";
 
 export default function Home() {
   return (
@@ -12,11 +14,12 @@ export default function Home() {
       <Hero />
       <SocialLinks />
       
+      {/* Achievements Strip */}
       <div className="flex flex-wrap gap-2 pt-2">
         {[
           "🏆 2nd — Cognizance 2026, IIT Roorkee",
           "🏆 2nd — CityCare Hackathon",
-          "🎓 Oracle · Microsoft · IBM Certified",
+          "🎓 Oracle Cloud AI Certified",
         ].map((a) => (
           <span
             key={a}
@@ -28,9 +31,10 @@ export default function Home() {
       </div>
 
       <Skills />
-      <Experience />
+      <Achievements />
+  
+      <GithubStats />
       
-      {/* Add the new components here */}
       <Projects />
       <Footer />
     </div>
