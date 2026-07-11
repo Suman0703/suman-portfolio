@@ -3,6 +3,8 @@ import { Mail, FileDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon, InstagramIcon, TwitterIcon } from "./BrandIcons"; 
 import Panel from "./Panel";
 
+import ResumePDF from "../assets/Resume.pdf";
+
 export default function SocialLinks() {
   return (
     <div className="space-y-4">
@@ -82,14 +84,15 @@ export default function SocialLinks() {
           <Mail size={12} /> Email Me
         </a>
         <a
-          href="/resume.pdf"
+          href={ResumePDF} /* 2. Updated the href to use the imported file */
           target="_blank"
+          rel="noreferrer"
           className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-neon hover:text-neon transition-colors"
         >
           <FileDown size={12} /> Resume
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/smehmi07"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-neon hover:text-neon transition-colors"

@@ -7,13 +7,10 @@ export default function Quote() {
       <Bracket>personal_philosophy</Bracket>
       
       <div className="relative group">
-        {/* Ambient neon glow that activates on hover */}
         <div className="absolute -inset-[1px] bg-gradient-to-r from-neon/30 via-zinc-800/0 to-zinc-800/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-sm blur-sm"></div>
         
-        {/* Main Panel with a faint static neon tint */}
         <div className="relative border border-dashed border-zinc-800 bg-[#0a0a0f] bg-gradient-to-br from-neon/[0.03] to-transparent p-8 sm:p-12 overflow-hidden">
           
-          {/* Chunky SVG Quote Marks mimicking your reference image */}
           <svg 
             className="absolute -top-2 -left-2 sm:top-4 sm:left-4 w-32 h-32 sm:w-40 sm:h-40 text-zinc-800/30 -z-10 select-none pointer-events-none" 
             fill="currentColor" 

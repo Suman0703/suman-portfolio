@@ -3,14 +3,11 @@ import { ExternalLink, ArrowRight } from "lucide-react";
 import { GithubIcon } from "./BrandIcons";
 import Panel from "./Panel";
 import Bracket from "./Bracket";
-
-// 1. Import your local images here
 import CampusConnectImg from "../assets/CampusConnect.png";
 import SkyBuilderImg from "../assets/SkyBuilder.png";
 import CityCareImg from "../assets/CityCare.png";
 import CloneImg from "../assets/Clone.png";
 
-// 2. Add the image property to your existing projectsData
 const projectsData = [
     {
         name: "CityCare",

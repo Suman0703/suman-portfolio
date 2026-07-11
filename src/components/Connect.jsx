@@ -3,7 +3,6 @@ import { FileDown, Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "./BrandIcons";
 import Panel from "./Panel";
 
-// A reusable button component specifically for this section
 function ConnectButton({ href, icon, label }) {
   return (
     <a
@@ -23,7 +22,6 @@ export default function Connect() {
     <div className="pt-8 pb-4">
       <Panel className="text-center relative overflow-hidden group !p-10 sm:!p-12">
         
-        {/* Subtle background gradient that fades up from the bottom */}
         <div className="absolute inset-0 bg-gradient-to-t from-neon/[0.04] to-transparent pointer-events-none" />
 
         <div className="relative z-10 space-y-3">
@@ -57,11 +55,6 @@ export default function Connect() {
             href="mailto:sumandevimehmi36@gmail.com" 
             icon={<Mail size={15} />} 
             label="Email" 
-          />
-          <ConnectButton 
-            href="/resume.pdf" 
-            icon={<FileDown size={15} />} 
-            label="Resume" 
           />
         </div>
       </Panel>
