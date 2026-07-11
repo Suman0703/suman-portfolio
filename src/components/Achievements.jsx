@@ -5,7 +5,7 @@ import Bracket from "./Bracket";
 
 const timelineData = [
   {
-    org: "Rayat-Bahra University",
+    org: "Rayat-Bahra Professional University",
     role: "Placement Coordinator, CSE Dept.",
     status: "Active",
     dates: "Jan 2026 — Now",

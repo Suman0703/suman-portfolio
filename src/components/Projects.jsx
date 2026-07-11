@@ -1,9 +1,16 @@
 import React from "react";
-import { ExternalLink, ArrowRight } from "lucide-react"; // Removed Github from here
-import { GithubIcon } from "./BrandIcons"; // Imported your custom Github icon here
+import { ExternalLink, ArrowRight } from "lucide-react";
+import { GithubIcon } from "./BrandIcons";
 import Panel from "./Panel";
 import Bracket from "./Bracket";
 
+// 1. Import your local images here
+import CampusConnectImg from "../assets/CampusConnect.png";
+import SkyBuilderImg from "../assets/SkyBuilder.png";
+import CityCareImg from "../assets/CityCare.png";
+import CloneImg from "../assets/Clone.png";
+
+// 2. Add the image property to your existing projectsData
 const projectsData = [
     {
         name: "CityCare",
@@ -12,6 +19,7 @@ const projectsData = [
         tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
         live: "https://citycarepseudocoders.vercel.app",
         repo: "https://github.com/Suman0703",
+        image: CityCareImg,
     },
     {
         name: "Campus Connect",
@@ -20,6 +28,7 @@ const projectsData = [
         tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
         live: "https://campus-connect-problem-resolver.vercel.app",
         repo: "https://github.com/Suman0703",
+        image: CampusConnectImg,
     },
     {
         name: "Sky Builder",
@@ -28,6 +37,7 @@ const projectsData = [
         tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
         live: "https://sky-builder-ai-resume.vercel.app",
         repo: "https://github.com/Suman0703",
+        image: SkyBuilderImg,
     },
     {
         name: "Moz Dashboard Clone",
@@ -36,6 +46,7 @@ const projectsData = [
         tech: ["React.js", "Tailwind CSS"],
         live: "https://moz-domain-analysis-clone.vercel.app",
         repo: "https://github.com/Suman0703",
+        image: CloneImg,
     },
 ];
 
@@ -43,6 +54,7 @@ function ProjectCard({ p }) {
     return (
         <Panel className="grid sm:grid-cols-[220px_1fr] gap-5 items-start">
             <div className="relative aspect-video sm:aspect-auto sm:h-full rounded-sm overflow-hidden bg-gradient-to-br from-violet-950 via-zinc-950 to-rose-950 border border-zinc-800 flex flex-col">
+                {/* Header with dots and badge preserved exactly as before */}
                 <div className="flex items-center gap-1.5 px-2 py-1.5 border-b border-zinc-800/80">
                     <span className="h-2 w-2 rounded-full bg-rose-500/70" />
                     <span className="h-2 w-2 rounded-full bg-amber-400/70" />
@@ -51,12 +63,18 @@ function ProjectCard({ p }) {
                         {p.badge}
                     </span>
                 </div>
-                <div className="flex-1 flex items-center justify-center p-3">
-                    <span className="text-center text-sm font-semibold bg-gradient-to-r from-violet-400 to-rose-400 bg-clip-text text-transparent">
-                        {p.name}
-                    </span>
+                
+                {/* 3. Replaced the text block with your image */}
+                <div className="flex-1 w-full bg-[#111] overflow-hidden">
+                    <img 
+                        src={p.image} 
+                        alt={p.name} 
+                        className="w-full h-full object-cover object-top opacity-90 hover:opacity-100 transition-opacity"
+                    />
                 </div>
             </div>
+            
+            {/* The rest of the card is entirely untouched */}
             <div>
                 <div className="flex items-center justify-between gap-3 flex-wrap">
                     <h3 className="font-mono text-base font-semibold text-zinc-50">
