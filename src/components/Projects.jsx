@@ -10,15 +10,6 @@ import CloneImg from "../assets/Clone.png";
 
 const projectsData = [
     {
-        name: "CityCare",
-        badge: "🏆 2nd Position — Hackathon",
-        desc: "A civic issue reporting platform enabling citizens to report public infrastructure issues with images and location details, with real-time status tracking and admin resolution workflows.",
-        tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-        live: "https://citycarepseudocoders.vercel.app",
-        repo: "https://github.com/Suman0703",
-        image: CityCareImg,
-    },
-    {
         name: "Campus Connect",
         badge: "Full-Stack · Solo Build",
         desc: "A campus grievance and communication platform to digitize student complaint reporting, with role-based dashboards for Students, Admins, and Superadmins.",
@@ -45,6 +36,15 @@ const projectsData = [
         repo: "https://github.com/Suman0703",
         image: CloneImg,
     },
+       {
+        name: "CityCare",
+        badge: "🏆 2nd Position — Hackathon",
+        desc: "A civic issue reporting platform enabling citizens to report public infrastructure issues with images and location details, with real-time status tracking and admin resolution workflows.",
+        tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+        live: "https://citycarepseudocoders.vercel.app",
+        repo: "https://github.com/Suman0703",
+        image: CityCareImg,
+    }
 ];
 
 function ProjectCard({ p }) {

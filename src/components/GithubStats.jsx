@@ -18,7 +18,6 @@ export default function GithubStats() {
           />
         </div>
 
-        {/* Activity Graph */}
         <div className="w-full flex justify-center">
           <img
             src="https://github-readme-activity-graph.vercel.app/graph?username=Suman0703&bg_color=0D1117&color=ffffff&line=00FF99&point=00FF99&area=true&hide_border=false&radius=16"
