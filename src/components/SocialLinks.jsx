@@ -39,7 +39,7 @@ export default function SocialLinks() {
             </div>
             <div>
               <p className="text-xs font-semibold text-zinc-100">Let's connect</p>
-              <p className="text-[11px] text-zinc-500">Open to new roles</p>
+              <p className="text-[11px] text-zinc-500">Open to Work</p>
             </div>
           </div>
           <a
@@ -59,14 +59,14 @@ export default function SocialLinks() {
             </div>
             <div>
               <p className="text-xs font-semibold text-zinc-100">Suman Devi</p>
-              <p className="text-[11px] text-zinc-500">@suman_mehmi0307</p>
+              <p className="text-[11px] text-zinc-500">Join Me</p>
             </div>
           </div>
           <a
             href="https://twitter.com/suman_mehmi0307"
             target="_blank"
             rel="noreferrer"
-            className="text-[11px] border border-zinc-700 px-2.5 py-1 hover:border-neon hover:text-neon transition-colors"
+            className="text-[11px] border border-zinc-700 px-2.5 py-1  hover:border-neon hover:text-neon  transition-colors "
           >
             Follow
           </a>

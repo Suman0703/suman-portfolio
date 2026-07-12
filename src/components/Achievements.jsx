@@ -22,7 +22,7 @@ const achievementsData = [
     badge: "Winner",
     badgeStyles: "text-amber-400 border-amber-400/30 bg-amber-400/10",
     icon: <Trophy size={16} className="text-amber-400" />,
-    description: "Secured 2nd position in this premier competitive coding competition",
+    description: "Secured 2nd position in this premier competitive coding competition and Won prizes worth ₹60,000",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const achievementsData = [
     badge: "Winner",
     badgeStyles: "text-amber-400 border-amber-400/30 bg-amber-400/10",
     icon: <Code size={16} className="text-amber-400" />,
-    description: "Secured 2nd position in the Snap Syntax web development competition organized by IIT Roorkee representatives on our campus. Won prizes worth ₹60,000 and earned a fully-sponsored invite to the IIT Roorkee Cognizance 2026 event.",
+    description: "Secured 2nd position in the Snap Syntax web development competition organized by IIT Roorkee representatives on our campus. Wonf ully-sponsored invite to the IIT Roorkee Cognizance 2026 event.",
   },
   {
     id: 4,
