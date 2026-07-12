@@ -47,7 +47,7 @@ export default function TopBar() {
           rel="noreferrer"
           className="group flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/40 border border-zinc-800 rounded shadow-sm hover:border-neon hover:text-neon transition-all duration-300"
         >
-          Building projects with MERN + GenAI 
+          Building projects with MERN 
           <Sparkles size={11} className="text-zinc-500 group-hover:text-neon transition-colors" />
         </a>
       </div>

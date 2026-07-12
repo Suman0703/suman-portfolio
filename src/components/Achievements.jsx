@@ -22,7 +22,7 @@ const achievementsData = [
     badge: "Winner",
     badgeStyles: "text-amber-400 border-amber-400/30 bg-amber-400/10",
     icon: <Trophy size={16} className="text-amber-400" />,
-    description: "Secured 2nd position in this premier competitive coding competition, winning overall prizes worth ₹60,000.",
+    description: "Secured 2nd position in this premier competitive coding competition",
   },
   {
     id: 3,

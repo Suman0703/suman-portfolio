@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
           <p className="text-sm text-zinc-500 mt-0.5">@Suman0703</p>
           <p className="text-sm text-zinc-400 mt-3 leading-relaxed text-justify">
-            Hey! I'm a <span className="text-zinc-100 font-medium">Full-Stack Developer</span> and final-year Computer Science student obsessed with building scalable, high-performance web applications. I specialize in the <span className="text-zinc-100 font-medium">MERN ecosystem</span>—architecting fluid interfaces with React, engineering robust RESTful APIs using Node.js and Express, and designing highly efficient MongoDB databases. Currently, I am expanding my technical horizons by integrating <span className="text-zinc-100 font-medium">Generative AI</span> into real-world applications to create intelligent, automated solutions. Beyond the screen, I serve as the <span className="text-zinc-100 font-medium">Placement Coordinator</span> for my CSE department at Rayat Bahra University, actively bridging the gap between emerging tech talent and industry recruiters.
+            Hey! I'm a <span className="text-zinc-100 font-medium">Full-Stack Developer</span> and final-year Computer Science student focused on building scalable, high-performance web applications. I specialize in the <span className="text-zinc-100 font-medium">MERN ecosystem</span>—developing responsive interfaces with React, building robust RESTful APIs using Node.js and Express, and designing efficient MongoDB databases. Beyond the screen, I serve as the <span className="text-zinc-100 font-medium">Placement Coordinator</span> for my CSE department at Rayat Bahra University, connecting emerging tech talent with industry recruiters.
           </p>
         </div>
       </div>

@@ -90,14 +90,6 @@ export default function SocialLinks() {
         >
           <FileDown size={12} /> Resume
         </a>
-        <a
-          href="https://www.instagram.com/smehmi07"
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-neon hover:text-neon transition-colors"
-        >
-          <InstagramIcon size={12} /> Instagram
-        </a>
       </div>
     </div>
   );
