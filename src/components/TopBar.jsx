@@ -62,8 +62,7 @@ export default function TopBar() {
         </div>
         
         <span className="text-zinc-700">•</span>
-        
-        {/* Live Ticking Time */}
+      
         <div className="flex items-center gap-1.5 text-zinc-400 hover:text-zinc-300 transition-colors min-w-[95px] justify-end">
           <Clock size={12} className="text-neon" />
           {/* tabular-nums prevents the text from shifting horizontally as the seconds tick */}
