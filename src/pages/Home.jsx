@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../components/Hero";
 import SocialLinks from "../components/SocialLinks";
 import Skills from "../components/Skills";
@@ -10,8 +10,17 @@ import Quote from "../components/Quote";
 import { Trophy, Award, Cloud, Users } from "lucide-react";
 import Achievements from "../components/Achievements";
 import Connect from "../components/Connect";
+import Loader from "../components/Loader"; // <-- Added Loader import
 
 export default function Home() {
+  // <-- Added state to track loading
+  const [isLoading, setIsLoading] = useState(true);
+
+  // <-- Added condition to show loader first
+  if (isLoading) {
+    return <Loader onComplete={() => setIsLoading(false)} />;
+  }
+
   return (
     <div className="space-y-6">
       <Hero />
