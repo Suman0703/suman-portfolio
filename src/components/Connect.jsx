@@ -21,7 +21,7 @@ export default function Connect() {
   return (
     <div className="pt-8 pb-4">
       <Panel className="text-center relative overflow-hidden group !p-10 sm:!p-12">
-        
+
         <div className="absolute inset-0 bg-gradient-to-t from-neon/[0.04] to-transparent pointer-events-none" />
 
         <div className="relative z-10 space-y-3">
@@ -34,27 +34,26 @@ export default function Connect() {
           </p>
         </div>
 
-        {/* Buttons Grid */}
         <div className="relative z-10 flex flex-wrap justify-center gap-3 pt-8">
-          <ConnectButton 
-            href="https://twitter.com/suman_mehmi0307" 
-            icon={<TwitterIcon size={15} />} 
-            label="Twitter" 
+          <ConnectButton
+            href="https://twitter.com/suman_mehmi0307"
+            icon={<TwitterIcon size={15} />}
+            label="Twitter"
           />
-          <ConnectButton 
-            href="https://github.com/Suman0703" 
-            icon={<GithubIcon size={15} />} 
-            label="GitHub" 
+          <ConnectButton
+            href="https://github.com/Suman0703"
+            icon={<GithubIcon size={15} />}
+            label="GitHub"
           />
-          <ConnectButton 
-            href="https://www.linkedin.com/in/suman-devi-220241348" 
-            icon={<LinkedinIcon size={15} />} 
-            label="LinkedIn" 
+          <ConnectButton
+            href="https://www.linkedin.com/in/suman-devi-220241348"
+            icon={<LinkedinIcon size={15} />}
+            label="LinkedIn"
           />
-          <ConnectButton 
-            href="mailto:sumandevimehmi36@gmail.com" 
-            icon={<Mail size={15} />} 
-            label="Email" 
+          <ConnectButton
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=sumandevimehmi36@gmail.com&su=Portfolio+Inquiry+-+Suman+Devi"
+            icon={<Mail size={15} />}
+            label="Email"
           />
         </div>
       </Panel>

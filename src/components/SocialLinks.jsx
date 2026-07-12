@@ -1,6 +1,6 @@
 import React from "react";
-import { Mail, FileDown } from "lucide-react"; 
-import { GithubIcon, LinkedinIcon, InstagramIcon, TwitterIcon } from "./BrandIcons"; 
+import { Mail, FileDown } from "lucide-react";
+import { GithubIcon, LinkedinIcon, InstagramIcon, TwitterIcon } from "./BrandIcons";
 import Panel from "./Panel";
 
 import ResumePDF from "../assets/Resume.pdf";
@@ -10,7 +10,7 @@ export default function SocialLinks() {
     <div className="space-y-4">
       {/* Primary Social Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-3">
-        
+
         {/* GitHub Card */}
         <Panel className="flex items-center justify-between !p-4">
           <div className="flex items-center gap-3">
@@ -31,8 +31,7 @@ export default function SocialLinks() {
             Follow
           </a>
         </Panel>
-        
-        {/* LinkedIn Card */}
+
         <Panel className="flex items-center justify-between !p-4">
           <div className="flex items-center gap-3">
             <div className="h-8 w-8 rounded bg-zinc-800 flex items-center justify-center">
@@ -53,7 +52,6 @@ export default function SocialLinks() {
           </a>
         </Panel>
 
-        {/* Twitter Card */}
         <Panel className="flex items-center justify-between !p-4">
           <div className="flex items-center gap-3">
             <div className="h-8 w-8 rounded bg-zinc-800 flex items-center justify-center">
@@ -75,16 +73,17 @@ export default function SocialLinks() {
         </Panel>
       </div>
 
-      {/* Quick Links Row */}
       <div className="flex flex-wrap gap-2">
         <a
-          href="mailto:sumandevimehmi36@gmail.com"
-          className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-neon hover:text-neon transition-colors"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=sumandevimehmi36@gmail.com&su=Portfolio+Inquiry+-+Suman+Devi"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-[#00FF99] hover:text-[#00FF99] transition-colors"
         >
           <Mail size={12} /> Email Me
         </a>
         <a
-          href={ResumePDF} /* 2. Updated the href to use the imported file */
+          href={ResumePDF}
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-1.5 text-xs border border-zinc-700 px-3 py-1.5 hover:border-neon hover:text-neon transition-colors"
